@@ -1,0 +1,137 @@
+#1
+
+#flast_name = input("Ismingizniz  ")
+#lest_name = input("Familyaniz  ")
+#full_name = f"{flast_name} {lest_name}"
+
+#print( full_name.title())
+
+#2
+
+#flast_name = input("Ismingizniz  ")
+#age = input("Yoshingizni yozing  ")
+
+#print( f"Sizning ismingiz {flast_name}",f"Yoshiniz {age}")
+
+
+#3
+
+#yoz = input(" biron bir so'z yozing  ")
+
+#print(yoz.upper())
+#print(yoz.lower())
+#print(yoz.title())
+#print(yoz.capitalize())
+
+#4
+
+#yoz = input("biron bir so'z yozing ")
+#print(yoz.strip())
+
+#5
+
+#flast_name = input("Ismingizniz  ")
+#age = input("Yoshingizni yozing  ")
+#color = input("Sevimli rangingiz yozing ")
+
+#print( f" Salom {flast_name}. Siz {age} yoshdasiz sizning sevimli rangingiz {color}")
+
+#6
+
+#yoz1 = input("Ismini kichik harifda yozing ")
+#print(yoz1.capitalize())
+
+#7
+
+#number1 = int(input("birinchi soni kiriting  "))
+#number2 = float(input("ikkinchi soni kiriting  "))
+
+#summa = number1 * number2
+#summa1 = number1 + number2
+#summa2 = number1 / number2
+#summa3 = number1 - number2
+
+#print (summa,summa1,summa2,summa3)
+
+#8
+
+#son = float(input("Birinchi soni ayting "))
+#son1 = float(input("Ikkinchi soni ayting "))
+#bolinma = son / son1
+#kvadrat = son*2,son1*2
+
+
+#print (f"Bo'linma javobi: {bolinma}")
+#print (f"kvadrat javobi: {kvadrat}")
+
+#9
+
+#matin = input("biron bir malumot kiriting")
+#print(type(matin))
+
+#10
+
+#son1 = int(input(" 1-soni kiriting "))
+#son2 = int(input("2- soni kiriting "))
+#summa = son1 + son2
+
+#print(summa)
+
+#11
+
+#son = int(input("Sonni kiriting: "))
+#chek = son < 10
+
+#print (chek)
+
+#12
+
+#son1 = input("1-chi soni kiriting: ")
+#son2 = input("2-chi soni kiriting: ")
+#jami = int(son1) + int(son2)
+
+#print(jami)
+#print(type(jami))
+
+#13
+
+#son = int(input("son yozing: "))
+#check = son % 2
+
+#print(bool(son))
+
+#14
+
+#uzunligi = int(input("To'rtburchakni uzunligi yozing: "))
+#eni = int(input("To'rtburchakni eni yozing: "))
+#yuzi = 2 * (uzunligi + eni)
+#peremetri = (2 * uzunligi)+(2 * eni)
+#print(f"To'rtburchakning peremetri: {peremetri}")
+#print(f"To'rburchakning yuzasi: {yuzi}")
+
+#15
+
+#aylana = float(input("Aylana radiusi flotda yozing: "))
+#radius = 3.14
+#uzunligi = 2 * aylana * radius
+#yuzasi = 2 * aylana * radius**2
+
+#print(f"Aylana uzunligi: {uzunligi}")
+#print(f"Aylana yuzasi: {yuzasi}")
+
+#16
+#son1 = float(input("olma flotda yozing: "))
+#son2 = float(input("nok radiusi flotda yozing: "))
+#chek = son1 <= son2
+
+#print(chek)
+
+#17
+
+#son1 = int(input("1-son yozing: "))
+#son2 = int(input("2-son yozing: "))
+#son3 = int(input("3-son yozing: "))
+
+#jami = (son1 + son2 + son3) / 3
+
+#print (f"O'rta qiymati: {jami}")
