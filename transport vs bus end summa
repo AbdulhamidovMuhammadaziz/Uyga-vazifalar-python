@@ -1,0 +1,221 @@
+moshina = int(input("Taxi narxni beldilang: "))
+km = int(input("necha km borasiz: "))
+bus = int(input("bus narxini belgilang: "))
+moshin = moshina * km
+summa = int(input("summani kiriting: "))
+nechta_bus = int(input("nechta aftobusga chiqasiz: "))
+chek = bus * nechta_bus
+
+print(f"Sizning sumangiz: {summa}")
+print(f"moshinada ketsaning qolgan sum: {summa - moshin}")
+print(f"bus ketsaning qolgan sum: {summa - chek}")
+
+1-masala
+
+sm = int(input("Sm: "))
+m = sm / 100
+
+print(m)
+
+2-masala
+
+massa = int(input("Massa: "))
+tonna = massa / 1000
+
+print(tonna)
+
+3-mashq
+
+bayt = int(input("Bayt: "))
+kbayt = bayt // 1024
+
+print(kbayt)
+
+4-mashq
+
+a = int(input("uzunlik1: "))
+b = int(input("uzunlik2: "))
+c = a // b
+
+print(c)
+
+5-mashq
+
+a = int(input("uzunlik1: "))
+b = int(input("uzunlik2: "))
+c = a % b
+
+print(c)
+
+
+6-mashq
+
+son1 = int(input("2 xonali son kiriting: "))
+print(son1 // 10)
+print(son1 % 10)
+
+7-mashq
+
+son1 = int(input("2 xonali son kiriting: "))
+
+natija1 = son1 // 10
+natija2 = son1 % 10
+
+print(natija1 + natija2)
+
+8-mashq
+
+son1 = int(input("2 xonali son kiriting: "))
+onlik = son1 // 10 
+birlik = son1 % 10
+
+check = birlik * 10 + onlik
+
+print(check)
+
+
+9-mashq
+
+son = int(input("3 xonali son kiriting: "))
+
+natija = son // 100
+
+print(natija)
+
+10-mashq
+
+son = int(input("3 xonali son kiriting: "))
+
+birlik = son % 10
+onlik = son // 10 % 10
+
+print(f"Birlik: {birlik}\nOnlik: {onlik}")
+
+11-mashq
+
+son = int(input("3 xonali son kiriting: "))
+birlik = son % 10
+onlik = son // 10 % 10
+yuzlik = son // 100
+
+print(f"Birlik: {birlik}\nOnlik: {onlik}\nYuzlik: {yuzlik}")
+
+12-mashq
+
+
+son = int(input("3 xonali son kiriting: "))
+birlik = son % 10
+onlik = son // 10 % 10
+yuzlik = son // 100
+
+check = birlik * 100 + onlik * 10 + yuzlik
+
+print(check)
+
+13-mashq
+
+son = int(input("3 xonali son kiriting: "))     
+birlik = son % 10
+onlik = son // 10 % 10
+yuzlik = son // 100                                            
+
+check = onlik * 100 + birlik * 10 + yuzlik
+
+print(check)
+
+14-mashq
+
+son = int(input("3 xonali son kiriting: "))     
+birlik = son % 10
+onlik = son // 10 % 10
+yuzlik = son // 100                                            
+#125 512
+check = birlik * 100 + yuzlik * 10 + onlik
+
+print(check)
+
+15-mashq
+
+son = int(input("3 xonali son kiriting: "))     
+birlik = son % 10
+onlik = son // 10 % 10
+yuzlik = son // 100                                            
+#125 215
+check = onlik *100 + yuzlik * 10 +birlik
+
+print(check)
+
+16-mashq
+
+son = int(input("3 xonali son kiriting: "))     
+birlik = son % 10
+onlik = son // 10 % 10
+yuzlik = son // 100                                            
+#125 152
+check = yuzlik *100 + birlik * 10 + onlik
+
+print(check)
+
+
+17-mashq# 
+
+son = int(input("4 xonali son kiriting:" ))
+
+natija = son // 100 
+check = natija % 10
+
+print(check)
+
+18-mashq
+
+son = int(input("4 xonali sonni kiriting: "))
+
+natija = son // 100
+check = natija // 10
+
+print(check)
+
+19-mashq
+
+sek = int(input("Sekundlarni kiriting: "))
+
+check = sek / 60
+
+print(check)
+
+
+20-mashq
+
+sek = int(input("Sekundlarni kiriting: "))
+
+check = sek / 3600
+
+print(check)
+
+21-mashq
+
+sek = int(input("sekunlarni kiriting: "))
+
+natija = sek / 60
+natija1 = sek 
+
+print(f"Kun davomida: {natija1} sekund\n{natija} Minut")
+
+22-mashq
+
+sek = int(input("sekunlarni kiriting: "))
+
+natija = sek / 3600
+natija1 = sek 
+
+print(f"Kun davomida: {natija1} sekund\n{natija} Soat")
+
+
+23-mashq
+
+sek = int(input("sekunlarni kiriting: "))
+
+natija = sek / 60
+natija1 = sek / 3600
+
+print(f"Kun davomida: {natija1} soat\n{natija} Minut")
